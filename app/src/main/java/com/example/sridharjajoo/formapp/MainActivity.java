@@ -21,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        AppForm appForm = new AppForm(this);
-        setContentView(appForm);
+        setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
     }
 
